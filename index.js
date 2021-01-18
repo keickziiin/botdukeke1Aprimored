@@ -34,7 +34,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:Affis Admin\n' 
             + 'ORG: Pengembang XBot;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=5511973027044:+55 11 97302-7044\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=5594992458330:+55 94 992458330\n' 
             + 'END:VCARD' 
 prefix = '!'
 blocked = []          
@@ -47,10 +47,8 @@ const time = moment().tz('Asia/Jakarta').format("HH:mm:ss")
 const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember']
 const bulan = arrayBulan[moment().format('MM') - 1]
 const config = {
-    XBOT: 'ᏴϴͲ ᎠႮ ᏦᎬᏦᎬ', 
-    instagram: 'https://www.instagram.com/kaic_de_paula?r=nametag', 
-    nomer: 'wa.me/5511973027044',
-    youtube: 'https://youtube.com/channel/UC2a7N-vZ5xrDF-0nfcaUspw', 
+    XBOT: 'Bot Moura totoso',  
+    nomer: 'wa.me/5594992458330', 
     whatsapp: 'Comming soon', 
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
@@ -152,7 +150,7 @@ client.on('group-participants-update', async (anu) => {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: '❬❗❭AGUARDE  ENQUANTO ESTOU PROCESSANDO❬❗❭',
+				wait: '❬❗❭AGUARDE FDP ENQUANTO ESTOU PROCESSANDO❬❗❭',
 				success: '️❬ ✔ ❭ PRONTINHO 🖤',
 				error: {
 					stick: 'Eu falhei :( desculpa',
