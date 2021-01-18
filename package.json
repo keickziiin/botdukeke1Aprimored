@@ -37,7 +37,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/keickziiin/botdukeke/.git"
+    "url": "https://github.com/mourakkkjj/botonly/.git"
   },
   "keywords": [
     "k"
@@ -45,7 +45,7 @@
   "author": "Abdul Muttaqin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/keickziiin/botdukeke/issues"
+    "url": "https://github.com/mourakkkjj/botonly/issues"
   },
-  "homepage": "https://github.com/keickziiin/botdukeke/readme"
+  "homepage": "https://github.com/mourakkkjj/botonly/readme"
 }
