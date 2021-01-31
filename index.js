@@ -32,9 +32,9 @@ const nsfw = JSON.parse(fs.readFileSync('./src/nsfw.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:Affis Admin\n' 
+            + 'FN: Itachi 😘🤝😎 Admin\n' 
             + 'ORG: Pengembang XBot;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=5511973027044:+55 11 97302-7044\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=557381044096:+55 73 8104-4096\n' 
             + 'END:VCARD' 
 prefix = '!'
 blocked = []          
@@ -168,7 +168,7 @@ client.on('group-participants-update', async (anu) => {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["5511973027044@s.whatsapp.net"] 
+			const ownerNumber = ["557381044096@s.whatsapp.net"] 
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
