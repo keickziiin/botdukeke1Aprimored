@@ -47,7 +47,7 @@ const time = moment().tz('Asia/Jakarta').format("HH:mm:ss")
 const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember']
 const bulan = arrayBulan[moment().format('MM') - 1]
 const config = {
-    XBOT: '𝔅𝔬𝔱 𝔒𝔬 𝔖𝔥𝔬𝔰𝔱', 
+    XBOT: '𝐺𝐻𝑂𝑆𝑇', 
     instagram: 'https://www.instagram.com/kayky._.eduardo/', 
     nomer: 'wa.me/5519988509168',
     youtube: 'https://youtube.com/channel/UCVUMgyQ-fwtR6W6WFlk7rxg', 
