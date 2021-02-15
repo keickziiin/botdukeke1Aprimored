@@ -107,7 +107,7 @@ client.on('group-participants-update', async (anu) => {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `oiee @${num.split('@')[0]}\ seja bem vindo/a ao grupo *${mdata.subject}* comportasse para nao ganha ban`
+				teks = `ROIH🌹 @${num.split('@')[0]}\ seja bem vindo/a ao grupo *${mdata.subject}* comporte-se, leia as regras e apresente-se para não ganhar ban 👉🏼👈🏼🌹`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -117,7 +117,7 @@ client.on('group-participants-update', async (anu) => {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `sayonara pessoa @${num.split('@')[0]} quem sabe possa voltar`
+				teks = `KITOU MERMO? KKKK @${num.split('@')[0]} FOI É TARDE, NEM FAZ FALTA 🌹 JAJA CHEGA MAIS 😊`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
